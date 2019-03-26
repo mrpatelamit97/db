@@ -1,0 +1,8 @@
+CREATE TABLE `teacher_student`.`resources` (
+  `img_cover` BLOB NULL,
+  `title` VARCHAR(45) NOT NULL,
+  `author` VARCHAR(45) NOT NULL,
+  `subject` VARCHAR(45) NOT NULL,
+  `year` VARCHAR(45) NOT NULL,
+  `file` VARCHAR(45) NULL,
+  PRIMARY KEY (`img_cover`));
