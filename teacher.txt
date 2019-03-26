@@ -1,0 +1,9 @@
+CREATE TABLE `teacher_student`.`new_table` (
+  `img_teacher` BLOB NULL,
+  `fname` VARCHAR(45) NOT NULL,
+  `lname` VARCHAR(45) NOT NULL,
+  `ACS` VARCHAR(45) NOT NULL,
+  `number_student` VARCHAR(45) NOT NULL,
+  `leaves` VARCHAR(45) NOT NULL,
+  `userid` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`userid`));
