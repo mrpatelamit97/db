@@ -1,0 +1,8 @@
+CREATE TABLE `teacher_student`.`batch` (
+  `date` VARCHAR(50) NOT NULL,
+  `time` VARCHAR(45) NOT NULL,
+  `batch` VARCHAR(45) NOT NULL,
+  `subject` VARCHAR(45) NOT NULL,
+  `notes` VARCHAR(45) NOT NULL,
+  `userId` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`userId`));
